@@ -9,22 +9,23 @@ h1{
 }
 section{
    display: flex;
+   margin-bottom: 100px;
 }
 .half-width{
   width: 40%;
   padding-left: 5%;
 }
 .half-width img{
-  width: 40%;
+  width: 60%;
 }
 .link-button{
   text-decoration: none;
-  background-image: linear-gradient(rgba(223, 208, 78, 0.781), rgb(235, 72, 43));
+  background-image: linear-gradient(rgba(240, 225, 96, 0.74), rgb(160, 79, 65));
   padding: 10px, 60px;
   color: white;
   font-weight: 700;
   border-radius: 5%;
 }
-.half-width img{
-  width: 70%;
+.top-bannar{
+  background-image: url(images/shapes/7.png);
 }
