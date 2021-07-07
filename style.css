@@ -2,8 +2,29 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-.orange-color{
-  color: rgb(122, 31, 31);  
+.red-color{
+     color: red;  
+}
+section{
+   display: flex;
+}
+.half-width{
+  width: 40%;
+  padding-left: 5%;
+}
+.half-width img{
+  width: 40%;
+}
+.link-button{
+  text-decoration: none;
+  background-image: linear-gradient(rgba(223, 208, 78, 0.781), rgb(235, 72, 43));
+  padding: 10px, 60px;
+  color: white;
+  font-weight: 700;
+  border-radius: 5%;
+}
+.half-width img{
+  width: 70%;
 }
